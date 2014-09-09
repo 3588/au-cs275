@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>cs 275 assignment 2</title>
+</head>
+
+<body>
+<div id="main"  style="width:500px;">
+<div id="title">
+Please fill out the followiung informing
+</div>
+<div id="form">
+<form action="SaveItems.php" method="post">
+  <p>Id:&nbsp;&nbsp;<input name="Id" type="text"><br/>
+    Title:&nbsp;&nbsp;<input name="Title" type="text"><br/>
+    Full Description:
+    <textarea name="Description" rows="5" type="text"></textarea>
+    <br/>
+    Price:&nbsp;&nbsp;<input name="Price" type="text"><br/>
+    Comment:&nbsp;&nbsp;
+    <textarea name="Comment" rows="5" type="text"></textarea>
+    <br/>
+    photoLink:&nbsp;&nbsp;
+    <input name="photoLink" type="text" value="" size="50">
+    <br/>
+    email:&nbsp;&nbsp;
+    <input name="email" type="text" value="" size="50">
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input name="" type="submit" value="submit">
+  </p>
+</form>
+</div>
+<div id="two_button" style="text-align:center">
+<div id="menu">
+<input type="submit" name="create" id="Enter" value="Welcome Page" onClick="location.href='Welcome.html'"></div>
+<div id="menu2">
+<input type="submit" name="create" id="view" value="View All Items" onClick="location.href='RetreiveItems.php'"></div>
+<div id="menu3">
+<input type="submit" name="create" id="Search" value="Search Items" onClick="location.href='SearchItems.php'"></div>
+
+</div>
+</div>
+</div>
+</body>
+</html>
